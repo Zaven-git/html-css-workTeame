@@ -1,0 +1,736 @@
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+ 
+header {
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index:2;
+}
+
+header div{
+    padding:19px 16px;
+    text-transform: uppercase;  
+    font-size: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+header div a{
+    margin-left:1px;
+    color:#000;
+}
+
+header div:first-of-type{
+    position: absolute;
+    left:1px;
+    letter-spacing: 3px;
+}
+header div:nth-of-type(3) img{
+    width:13px;
+    height:13px;
+}
+header div:nth-of-type(4) img{
+    width:13px;
+    height:13px;
+    padding:3px;
+}
+header div:nth-of-type(5) img{
+    width:14px;
+    height:15px;
+
+}
+header div:last-of-type img{
+    width:16px;
+    height:18px;
+}
+
+header div:hover{
+    background-color: #ddd;
+}
+
+#start{
+    width: 100%;
+    height:100vh;
+    background-image:url(../images/mac.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom:30px;
+}
+
+#start h2{
+    color:#fff;
+    font-size: 64px;
+    font-weight: 100;
+}
+#start h5{
+    font-size:18px;
+    color:#eee;
+    font-weight: 100;
+}
+
+
+.learn{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    padding:48px;
+}
+.learn > a {
+    padding:18px 24px;
+    background-color:#eee;
+    font-size: 18px;
+    color:#000;
+    width: 228px;
+    opacity:0.60;
+}
+
+.log{
+    opacity: 0.8;
+    text-align: center;
+    padding: 24px 48px;
+    position: absolute;
+    bottom:5px;
+
+}
+
+.log img{
+    width: 14px;
+    height: 15px;
+}
+
+.log a{
+    width:5%;
+    /* transition-duration: 0.5s; */
+    
+}
+
+.log a:hover{
+    background-color: #000;
+    filter: grayscale(70%);
+}
+#about {
+    display: flex;
+    padding-bottom:150px;
+    border-radius: 15px;
+}
+
+#about img{
+    width:65px;
+    height:65px;
+}
+
+#about div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.key > h2 ,h4{
+    font-weight: 100;
+   
+}
+.key > h4{
+    font-size: 18px;
+}
+
+#about h6{
+    font-size: 18px;
+}
+
+#work{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding:140px 30px;
+}
+#work > div:first-child{
+    line-height: 30px;
+    width:50%;
+}
+
+#work > div:first-child >h2{
+font-weight: 100;
+}
+#work > div:first-child >a{
+    color:#aaa;
+    padding:10px;
+    background-color: #000;
+}
+
+#work > div:first-child >a:hover{
+    background: #ddd;
+    color:black;
+}
+#work > div:first-child img{
+    width: 15px;
+    height: 12px;
+   
+}
+
+#work > div:last-child img{
+    width:530px;
+    border-radius: 8px;
+  
+}
+#work > div:last-child {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.a{
+    text-align: center;
+    padding: 120px 0px 60px 0px;
+}
+.a h2{
+    font-weight: 100;
+
+}
+.a p{
+    font-size: 18px;
+}
+
+#team{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(70%);
+    padding-left: 30px ;
+    padding-bottom: 140px;
+}
+
+#team div {
+width:24%;
+display: flex;
+flex-direction: column;
+justify-content:center;
+border-radius: 2px;
+box-shadow: 2px 2px 2px #ccc;
+
+}
+#team > div > img{
+width: 100%;
+}
+#team div a{
+    text-align: center;
+    padding:12px;
+    background-color: #eee;
+    color:#000;
+    
+}
+
+#team div a:hover{
+    background-color: #aaa;
+    
+}
+#team h2{
+    font-weight: 100;
+}
+
+#team h4{
+   color:#333;
+   opacity: 0.60;
+   font-size: 15px;
+}
+
+
+#view{
+    background-color: #666;
+    display: flex;
+    padding:50px;
+}
+
+#view div{
+    width: 25%;
+    color:#eee;
+    text-align: center;
+    
+}
+#view div h2{
+    font-size: 36px;
+    font-weight: 100;
+    margin:5px;
+}
+#view div h6{
+    font-size: 15px;
+    font-weight: 100;
+    margin:15px;
+    
+}
+.our{
+    text-align: center;
+    padding:100px 0px 40px 0px;
+}
+.our h2{
+    font-weight: 100;
+}
+.our h5{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+#ourWork{
+    display:flex;
+    flex-wrap: wrap;
+    width:97%;
+    margin-left:41px;
+    padding-bottom:120px;
+}
+
+#ourWork div{
+    width:24%;
+    margin-bottom:20px;
+}
+
+#skills{
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding:50px 0px;
+}
+
+#skills > div{
+    width:45%;
+}
+
+#skills div:first-of-type h3{
+    font-weight: 100;
+    font-size: 24px;
+}
+#skills div:first-of-type {
+    padding-left:30px;
+}
+
+.last h3{
+   font-weight: 100;
+   font-size: 15px;
+   letter-spacing: 5px;
+   
+}
+
+.last div{
+    width: 80%;
+    background-color:#555;
+    text-align: center;
+}
+.last div:last-of-type{
+    width:75%;
+}
+.last img{
+    width:15px;
+    height: 16px;
+    
+}
+
+.price{
+    text-align: center;
+    background:  #616161;
+    width: 100%;
+    color:#fff;
+    padding:80px 0px 50px 0px;
+}
+
+.price h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+#pricing{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background: #616161;
+    padding:20px 0px 100px 0px;
+}
+
+#pricing div{
+    width:32%;
+    height:45%; 
+    background-color: #fff;
+    margin:16px;
+}
+
+#pricing div ul{
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+#pricing div:nth-of-type(2){
+    margin-top:0px;
+}
+
+
+#pricing div:first-of-type ul li:first-of-type{
+    padding:36px;
+    border-bottom: 1px solid #ddd;
+    background-color:black;
+    font-size: 24px;
+    color:#fff;
+}
+#pricing div:last-of-type ul li:first-of-type{
+    padding:36px;
+    border-bottom: 1px solid #ddd;
+    background-color:black;
+    font-size: 24px;
+    color:#fff;
+}
+#pricing div:nth-of-type(2) ul li:first-of-type{
+    padding:55px;
+    border-bottom: 1px solid #ddd;
+    background-color:#f44336;
+    font-size: 24px;
+    color:#fff;
+    
+}
+#pricing div ul li:nth-of-type(2){
+    padding:20px 65px;
+    border-bottom: 1px solid #ddd;
+}
+#pricing div ul li:nth-of-type(3){
+    padding: 20px 65px;
+    border-bottom: 1px solid #ddd;
+}
+#pricing div ul li:nth-of-type(4){
+    padding: 20px 65px;
+    border-bottom: 1px solid #ddd;
+}
+#pricing div ul li:nth-of-type(5){
+    padding: 20px 65px;
+    border-bottom: 1px solid #ddd;
+}
+#pricing div ul li:nth-of-type(6){
+    padding:12px;
+    border-bottom: 1px solid #ddd;
+}
+#pricing div ul li:nth-of-type(7){
+    padding:25px 40px;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee
+}
+#pricing div ul li h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+#pricing div ul li a{
+    padding:12px 24px;
+    background-color: #000;
+    color:#fff;
+}
+
+#pricing div ul li a:hover{
+    background-color: #ccc;
+    color:#000;
+}
+
+.cont{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 30px;
+    background-color: #eee;
+}
+.cont h2{
+    font-weight: 100;
+}
+.cont p{
+    font-size: 18px;
+}
+#contact{
+    display: flex;
+    background-color: #eee;
+}
+
+#contact div:first-of-type {
+    display:flex;
+    flex-direction: column;
+
+}
+
+#contact div:first-of-type img{
+    width:30px;
+    height: 30px;
+    padding:20px;
+}
+
+#contact div:last-of-type p{
+    padding:16px;
+}
+#login{
+    width:100%;
+    background-color: #eee;
+    padding-bottom: 50px;
+}
+#login div{
+    display: flex;
+    flex-direction: column;
+    width:99%;
+}
+#login div input{
+    padding:13px ;
+    margin:10px 15px;
+    font-size: 15px;
+
+}
+
+#login div a{
+    color:white;
+    background-color: #000;
+    padding:11px;
+    width: 10%;
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#login div a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.map{
+    background-image: url(images/map.jpg);
+    background-size: cover;
+    padding:5px 15px 100px 15px;;
+    background-color: #eee;
+    filter:grayscale(70%);
+    
+}
+
+footer{
+    background-color: #000;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+footer > a{
+    padding:10px 20px;;
+    color:#000;
+    background-color: #fff;
+}
+footer > a:hover{
+    background-color: #aaa;
+}
+
+footer div{
+margin-top:20px;
+}
+footer div a img{
+    width:20px;
+    height: 21px;
+}
+
+footer p{
+    color:#fff;
+}
+
+}
+
+
+
+ @media only screen and (max-width: 481px){
+    header{    width: 166%;}
+    #start{    width: 166%;}
+    .key{    width: 166%;}
+    #about{    width: 166%;}
+    #work{    width: 166%;}
+    #work > div:last-child img{width:360px;}
+    .a{    width: 166%;}
+    #team{    width: 154%;}
+    #view{    width: 146%;}
+    .our{    width: 166%;}
+    #ourWork{    width: 149%;}
+    #ourWork div{
+        width:49%;
+        margin-right: 6px;
+    }
+    #ourWork div img{
+        width: 100%;
+        
+    }
+    #skills{    width: 166%;}
+    .price{    width: 166%;}
+    #pricing{    width: 166%;}
+    #login{    width: 166%;}
+    .cont{    width: 166%;}
+    #contact{    width: 166%;}
+    .map{    width: 166%;}
+    footer{     
+        width: 166%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    } 
+    
+
+@media only screen and (max-width: 768px){
+header{
+    width:120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+
+}
+header div:first-child{
+    position: static;
+}
+.learn{padding:78px}
+.log{padding-left:78px}
+#start{width:120%}
+.key{width:120%}
+
+#about{
+    width:120%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:78px;
+}
+#about div{
+    width: 44%;
+
+}
+
+#work{
+    width: 102%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#work > div:last-child{
+    margin-right: 110px;;
+}
+#work > div:last-child img{
+    width:542px;
+    
+}
+.a{width:120%}
+#team{
+width:247%;
+padding-left: 12px;
+display: flex;
+flex-wrap: wrap;
+}
+#team div{
+    width:78%;
+    padding-left:116px;
+    padding-bottom: 20px;
+}
+#view{width:241%}
+.our{width:120%}
+#ourWork{
+width:120%;
+margin-left: 28px;
+display: flex;
+flex-wrap: wrap;
+}
+#ourWork div{width:49%;}
+#ourWork div img{width:100%;}
+#skills{
+    width:120%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#skills div:first-of-type {
+    padding-left: 69px;
+}
+#skills div:first-of-type p{
+    width:80%;
+}
+#skills > div{
+    width: 95%;
+    padding-left: 69px;
+}
+.price{width:120%}
+#pricing{
+    width:120%;
+    padding-left:28px;
+    display: flex;
+    justify-content: center;
+}
+#pricing div{
+    margin:2px;
+    width: 25%;
+}
+#pricing div:first-of-type ul li:first-of-type{
+    padding:16px;
+}
+#pricing div:last-of-type ul li:first-of-type{
+    padding:16px;
+}
+#pricing div:nth-of-type(2) ul li:first-of-type{
+    padding:22px; 
+}
+#pricing div ul li:nth-of-type(2){
+    padding:10px;
+    
+}
+#pricing div ul li:nth-of-type(3){
+    padding: 10px;
+   
+}
+#pricing div ul li:nth-of-type(4){
+    padding: 10px;
+    
+}
+#pricing div ul li:nth-of-type(5){
+    padding: 10px;
+    
+}
+#pricing div ul li:nth-of-type(6){
+    padding:12px;
+   
+}
+#pricing div ul li:nth-of-type(7){
+    padding:15px;
+}
+
+#login{
+    width:96%;
+    padding-left:78px;
+}
+#login div a {
+    margin-left:38%;
+    padding:10px 50px;;
+}
+
+.cont {width:120%}
+
+#contact{
+    width:120%;
+    padding-left:78px;
+}
+.map{width:120%}
+
+footer{
+    width:124%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+} 
+}
